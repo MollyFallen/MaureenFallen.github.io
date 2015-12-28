@@ -1,0 +1,92 @@
+@font-face { 
+	font-family: "JosefinBold"; 
+	src: url("JosefinSans-Bold.ttf"); 
+}
+
+@font-face { 
+	font-family: "Josefin"; 
+	src: url("JosefinSans-SemiBold.ttf");  
+}
+
+@font-face {
+	font-family: "NewAthena"; 
+	src: url("new_athena_unicode.ttf"); 
+}
+	
+@font-face {
+	font-family: "JosefinItalic"; 
+	src: url("JosefinSans-SemiBoldItalic.ttf"); 
+}
+
+body{
+	background-color: white;
+}
+
+/* unvisited link */
+a{
+	font-family: "JosefinBold";
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+h1{
+	font-family: "NewAthena";
+	text-align: center;
+	font-size: 40pt;
+	margin-bottom: 10px;
+}
+
+h2{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size: 18pt;
+	padding-left: 22%;
+	margin-top: 0px;
+}
+
+ul{
+	list-style-type: circle;
+	list-style-position: outside;
+	padding-left: 20px;
+	margin: 0px;
+}
+
+.subhead, h3{
+	font-family: "JosefinBold";
+}
+
+#notitle, h2{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Josefin";
+}
+
+#notitle{
+	font-size: 14pt;
+}
+
+#poketunes, #hackathon, #VDsys{
+	padding-top: 20px;
+}

@@ -70,6 +70,11 @@ ul{
 	margin: 0px;
 }
 
+img{
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .subhead, h3{
 	font-family: "JosefinBold";
 }

@@ -70,12 +70,16 @@ ul{
 	margin: 0px;
 }
 
-img{
+#molly{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 }
 
+#about{
+	padding: 0px;
+	text-align: center;
+}
 .subhead, h3{
 	font-family: "JosefinBold";
 }
@@ -89,6 +93,7 @@ img{
 
 #notitle{
 	font-size: 14pt;
+	text-align: left;
 }
 
 #poketunes, #hackathon, #VDsys{

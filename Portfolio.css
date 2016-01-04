@@ -60,7 +60,7 @@ h2{
 
 h3{
 	font-size: 18pt;
-	padding-left: 22%;
+	text-decoration: underline;
 }
 
 ul{
@@ -68,6 +68,10 @@ ul{
 	list-style-position: outside;
 	padding-left: 20px;
 	margin: 0px;
+}
+
+hr{
+	border-top: 2px dotted;
 }
 
 #molly{
@@ -78,7 +82,6 @@ ul{
 
 #about{
 	padding: 0px;
-	text-align: center;
 }
 .subhead, h3{
 	font-family: "JosefinBold";

@@ -38,12 +38,16 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: black;
+    color: blue;
 }
 
 /* selected link */
 a:active {
     color: black;
+}
+
+.border:hover{
+	border: 1px black;
 }
 
 h1{

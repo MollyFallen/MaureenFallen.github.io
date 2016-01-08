@@ -1,0 +1,163 @@
+@font-face { 
+	font-family: "JosefinBold"; 
+	src: url("JosefinSans-Bold.ttf"); 
+}
+
+@font-face { 
+	font-family: "Josefin"; 
+	src: url("JosefinSans-SemiBold.ttf");  
+}
+
+@font-face {
+	font-family: "NewAthena"; 
+	src: url("new_athena_unicode.ttf"); 
+}
+	
+@font-face {
+	font-family: "JosefinItalic"; 
+	src: url("JosefinSans-SemiBoldItalic.ttf"); 
+}
+
+body{
+	background-color: white;
+}
+
+/* unvisited link */
+a{
+	font-family: "JosefinBold";
+	text-decoration: none;
+}
+
+#notitle{
+	clear:left;
+	font-family: "Josefin";
+	font-size: 14pt;
+	width: 30%;
+}
+
+#main{
+	float:left;
+	font-family: "Josefin";
+	font-size: 14pt;
+}
+
+#pokepic{
+	float:right;
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+
+ul{
+	list-style-type: circle;
+	list-style-position: outside;
+	padding-left: 20px;
+	margin: 0px;
+}
+
+.subhead{
+	font-family: "JosefinBold";
+}
+
+#titlelink{
+	font-family: "JosefinBold";
+	font-size: 30pt;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+#heading{
+	float:left;
+}
+
+h1{
+	font-family: "NewAthena";
+	text-align: left;
+	font-size: 70pt;
+	margin-bottom: 50px;
+	margin-top: 0px;
+}
+
+#name{
+	margin-bottom: 0px;
+}
+
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2{
+	text-align: right;
+	margin-bottom: 10px;	
+	font-family: "Josefin";
+	margin-top: 100px;
+}
+
+hr{
+	padding-bottom: 25px;
+}
+
+#title2{
+	width: 50%;
+	float: right;
+}
+
+#nav{
+	width: 447px;
+	font-size: 24pt;
+	float: right;
+	padding-bottom: 40px;
+}
+
+#last{
+	border-right: none; 
+}
+
+
+#current{
+	background-color: #d3d3d3;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+h3{
+	font-size: 18pt;
+	text-align: center;
+}
+
+#list{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "JosefinBold";
+    text-decoration: none;
+    border-top: 2px black solid;
+
+}
+
+.navbar{
+	display: block;
+	float: right;
+	padding: 8px;
+	border-right: 1px solid black;
+}
+
+h3{
+	font-family: "JosefinBold";
+}

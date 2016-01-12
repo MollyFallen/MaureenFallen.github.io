@@ -31,22 +31,13 @@ a{
 hr{
 	margin-bottom: 25px;
 	clear: left;
+	border-top: 1px solid black;
 }
 
 #notitle{
 	clear:left;
 	font-size: 14pt;
 	width: 30%;
-}
-
-.About #pictain{
-	width: 70%;
-	float: right;
-}
-
-.About #molly{
-	margin-right: auto;
-	margin-left: auto;
 }
 
 .Resume #download{
@@ -58,7 +49,7 @@ hr{
 	font-family: "JosefinBold";
 }
 
-.About #current, .Resume #current{
+.About #current, .Resume #current, .Links #current{
 	border-left: none;
 }
 
@@ -105,15 +96,7 @@ a:active {
 
 #heading{
 	float:left;
-	margin-bottom: 15px;
-}
-
-h1{
-	font-family: "NewAthena";
-	text-align: left;
-	font-size: 70pt;
-	margin-bottom:25px;
-	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #name{
@@ -153,7 +136,6 @@ h2{
 
 #current{
 	background-color: #d3d3d3;
-	border-bottom: 1px solid black;
 	border-left: 1px solid black;
 }
 
@@ -165,28 +147,38 @@ h2{
 	margin: 15px;
 }
 
-.Pokepage #pokepic{
-	float:right;
+.projects #pokepic{
+	padding-top: 10px;
 }
 
-.Digipet #pettainer, .Hack #rendertain, .VD #VDtain{
+.projects #render{
+	padding-top: 15px;
+}
+
+.projects #VDpic{
+	padding-top: 5px;
+}
+
+.Digipet #container, .Hack #container, .VD #container, .Pokepage #container, .About #container{
 	float: right;
 	width: 70%;
+	margin-left: 20px;
 }
 
-.Digipet #petpic, .Hack #render, .VD #VDpic{
-	margin-right: auto;
-	margin-left: auto;
+.Digipet #petpic, .Hack #render, .VD #VD, .Pokepage #pokepic{
+	float:left;
+	width: 80%;
+}
+
+.About #molly{
+	float: left;
+	width: 40%;
 }
 
 #poke{
 	clear:left;
 }
 
-#petpic{
-	margin-left: auto;
-	margin-right: auto;
-}
 h3{
 	font-size: 18pt;
 	text-align: center;

@@ -159,20 +159,37 @@ h2{
 	padding-top: 5px;
 }
 
-.Digipet #container, .Hack #container, .VD #container, .Pokepage #container, .About #container{
+.Digipet #container, .Hack #container, .VD #container, .Pokepage #container{
 	float: right;
-	width: 70%;
+	width: 65%;
 	margin-left: 20px;
+}
+
+.About #main{
+	margin-right: auto;
+	margin-left: auto;
+	width:50%;
+}
+
+.About #container{
+	float: right;
+	width: 50%;
+	margin-left: 20px;
+}
+
+.About #molly{
+	width: 100%;
+}
+
+.About #notitle{
+	clear:left;
+	font-size: 14pt;
+	width: 100%;
 }
 
 .Digipet #petpic, .Hack #render, .VD #VD, .Pokepage #pokepic{
 	float:left;
 	width: 80%;
-}
-
-.About #molly{
-	float: left;
-	width: 40%;
 }
 
 #poke{

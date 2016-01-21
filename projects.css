@@ -144,22 +144,20 @@ h2{
 
 #square{
 	width: 300px;
-	height: 320px;
-	border: 1px solid black;
+	height: 200px;
 	float: left;
 	margin: 15px;
 }
 
-.projects #pokepic{
-	padding-top: 10px;
+.projects hr{
+	padding-bottom: 20px;
+	border-bottom: none;
+	border-left: none;
+	border-right:none;
 }
 
-.projects #render{
-	padding-top: 15px;
-}
-
-.projects #VDpic{
-	padding-top: 5px;
+.projects #pokepic, .projects #render, .projects #VDpic, .projects #petpic{
+	height: 100%;
 }
 
 .Digipet #container, .Hack #container, .VD #container, .Pokepage #container{
@@ -167,6 +165,7 @@ h2{
 	width: 65%;
 	margin-left: 20px;
 }
+
 
 .About #main{
 	margin-right: auto;
@@ -178,6 +177,10 @@ h2{
 	float: right;
 	width: 50%;
 	margin-left: 20px;
+}
+
+#bottom{
+	padding-top: 20px;
 }
 
 .About #molly{
@@ -227,6 +230,10 @@ h3{
 	float: right;
 	padding: 8px;
 	border-right: 1px solid black;
+}
+
+.Digipet #petpic{
+	padding-bottom: 50px;
 }
 
 body{

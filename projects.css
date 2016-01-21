@@ -51,7 +51,7 @@ body{
 }
 
 .Hack #notitle, .Digipet #notitle, .VD #notitle, .Pokepage #notitle{
-	background-color: #F1DBEB;
+	background-color: #f3f3f3;
 	position: absolute;
 	bottom: 0;
 	top: 133px;

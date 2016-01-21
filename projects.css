@@ -48,6 +48,9 @@ body{
 	clear:left;
 	font-size: 14pt;
 	width: 30%;
+}
+
+.Hack #notitle, .Digipet #notitle, .VD #notitle, .Pokepage{
 	background-color: #F1DBEB;
 	position: absolute;
 	bottom: 0;

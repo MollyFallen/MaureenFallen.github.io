@@ -71,6 +71,11 @@ body{
 	border-left: none;
 }
 
+.Links #notitle{
+	margin-right: auto;
+	margin-left: auto;
+}
+
 #this{
 	float:left;
 	font-size: 14pt;

@@ -130,11 +130,17 @@ img{
 	margin-left: auto;
 }
 
-h2{
+#title2 h2{
 	text-align: right;
 	margin-bottom: 10px;
 	clear: left;
-	
+}
+
+#email{
+	position: absolute;
+	left: 200px;
+	padding-top: 50px;
+	font-size: 24pt;
 }
 
 #navandtitle{

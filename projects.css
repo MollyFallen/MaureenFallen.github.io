@@ -29,19 +29,13 @@ a{
 }
 
 hr{
-	margin-bottom: 25px;
 	clear: left;
 	border-top: 1px solid black;
 }
 
-html{
-	min-height: 110%;
-	position: relative;
-}
-
 body{
-	height: 100%;
-	margin-left: 0px;
+	margin: 0px;
+	margin-left: 5px;
 }
 
 #notitle{
@@ -51,11 +45,12 @@ body{
 }
 
 .Hack #notitle, .Digipet #notitle, .VD #notitle, .Pokepage #notitle{
-	background-color: #f3f3f3;
-	position: absolute;
-	bottom: 0;
-	top: 133px;
+	/*background-color: #f3f3f3;*/
+	height: 100%;
 	padding-right: 20px;
+	position: absolute;
+	top: 133px;
+	bottom: 0px;
 }
 
 .Hack #notitle{
@@ -143,7 +138,8 @@ h2{
 }
 
 #navandtitle{
-	float:right;
+	position: absolute;
+	right: 0px;
 }
 
 #title2{
@@ -183,14 +179,22 @@ h2{
 	height: 100%;
 }
 
-.Digipet #container, .Hack #container, .VD #container, .Pokepage #container{
-	float: right;
+
+ .projects #personatapic, .projects #repurposepic{
+	width: 80%;
+	margin-bottom: 80px;
+ }
+
+
+.Digipet #container, .Hack #container, .VD #container, .Pokepage #container, .Repurpose #container, .Personata #container{
+	position: absolute;
+	right: 0;
 	width: 65%;
 	margin-left: 20px;
-	background-color: white;
+	margin-top: 20px;
 }
 
-.projects #hack, .projects #pet, .projects #VD, .projects #poke{
+.projects #hack, .projects #pet, .projects #VD, .projects #poke, .projects #personata, .projects #repurpose{
 	width: 300px;
 	margin: 0px;
 	margin-bottom: 60px;
@@ -201,6 +205,7 @@ h2{
 	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 
@@ -230,8 +235,14 @@ h2{
 	width: 100%;
 }
 
-.Digipet #bodypic, .Hack #bodypic, .VD #bodypic, .Pokepage #bodypic{
+.Digipet #bodypic, .Hack #bodypic, .VD #bodypic, .Pokepage #bodypic, .Repurpose #bodypic{
+	padding-top: 20px;
 	width: 80%;
+}
+
+.Personata #bodypic{
+	width: 50%;
+	padding-bottom: 20px;
 }
 
 #poke{
@@ -263,7 +274,7 @@ h3{
 
 .navbar{
 	display: block;
-	float: right;
+	float:right;
 	padding: 8px;
 	border-right: 1px solid black;
 }

@@ -20,66 +20,16 @@
 
 body{
 	background-color: white;
+	font-family: "Josefin";
+	font-size: 14pt;
+	margin: 0px;
+	margin-left: 5px;
 }
 
 /* unvisited link */
 a{
 	font-family: "JosefinBold";
 	text-decoration: none;
-}
-
-hr{
-	clear: left;
-	border-top: 1px solid black;
-}
-
-body{
-	margin: 0px;
-	margin-left: 5px;
-}
-
-#notitle{
-	clear:left;
-	font-size: 14pt;
-	width: 30%;
-}
-
-.Hack #notitle, .Digipet #notitle, .VD #notitle, .Pokepage #notitle{
-	/*background-color: #f3f3f3;*/
-	height: 100%;
-	padding-right: 20px;
-	position: absolute;
-	top: 133px;
-	bottom: 0px;
-}
-
-.Hack #notitle{
-
-}
-
-.Resume #download{
-	font-size: 18pt;
-}
-
-#TitleLink{
-	font-size: 30pt;
-	font-family: "JosefinBold";
-	margin-top: 0px;
-}
-
-.About #current, .Resume #current, .Links #current{
-	border-left: none;
-}
-
-.Links #notitle{
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
-
-#this{
-	float:left;
-	font-size: 14pt;
 }
 
 a:link {
@@ -96,6 +46,74 @@ a:hover {
     color: #D87BB2;
 }
 
+/* selected link */
+a:active {
+    color: black;
+}
+
+hr{
+	clear: left;
+	border-top: 1px solid black;
+}
+
+.projects hr{
+	padding-bottom: 20px;
+	border-bottom: none;
+	border-left: none;
+	border-right:none;
+}
+
+#notitle{
+	clear:left;
+	font-size: 14pt;
+	width: 30%;
+}
+
+.Links #notitle{
+	width: 50%;
+}
+
+.Hack #notitle, .Digipet #notitle, .VD #notitle, .Pokepage #notitle{
+	/*background-color: #f3f3f3;*/
+	height: 100%;
+	padding-right: 20px;
+	position: absolute;
+	top: 133px;
+	bottom: 0px;
+}
+
+.About #notitle{
+	clear:left;
+	font-size: 14pt;
+	width: 100%;
+}
+
+.Links #notitle{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Links #notitle{
+	text-align: center;
+}
+
+.Resume #download{
+	font-size: 18pt;/* selected link */
+}
+
+a:active {
+    color: black;
+}
+
+.About #current, .Resume #current, .Links #current{
+	border-left: none;
+}
+
+#current{
+	background-color: #d3d3d3;
+	border-left: 1px solid black;
+}
+
 .Pokepage ul{
 	list-style-type: circle;
 	list-style-position: outside;
@@ -105,6 +123,7 @@ a:hover {
 
 .subhead{
 	font-family: "JosefinBold";
+	font-size: 16pt;
 }
 
 #titlelink{
@@ -112,10 +131,8 @@ a:hover {
 	font-size: 30pt;
 }
 
-
-/* selected link */
-a:active {
-    color: black;
+.Digipet #titlelink, .VD #titlelink{
+	margin-top: 0px;
 }
 
 #heading{
@@ -142,6 +159,10 @@ img{
 	clear: left;
 }
 
+#title2{
+	width: 100%;
+}
+
 #email{
 	position: absolute;
 	left: 200px;
@@ -154,10 +175,6 @@ img{
 	right: 0px;
 }
 
-#title2{
-	width: 100%;
-}
-
 #nav{
 	width: 470px;
 	font-size: 24pt;
@@ -168,23 +185,10 @@ img{
 	border-right: none; 
 }
 
-
-#current{
-	background-color: #d3d3d3;
-	border-left: 1px solid black;
-}
-
 #square{
 	width: 100%;
 	height: 200px;
 	margin: 15px;
-}
-
-.projects hr{
-	padding-bottom: 20px;
-	border-bottom: none;
-	border-left: none;
-	border-right:none;
 }
 
 .projects #pokepic, .projects #render, .projects #VDpic, .projects #petpic{
@@ -211,6 +215,11 @@ img{
 	margin: 0px;
 	margin-bottom: 60px;
 	display: inline-block;
+}
+
+.Digipet #bodypic, .Hack #bodypic, .VD #bodypic, .Pokepage #bodypic, .Repurpose #bodypic{
+	padding-top: 20px;
+	width: 80%;
 }
 
 .projects #main{
@@ -241,17 +250,6 @@ img{
 	width: 100%;
 }
 
-.About #notitle{
-	clear:left;
-	font-size: 14pt;
-	width: 100%;
-}
-
-.Digipet #bodypic, .Hack #bodypic, .VD #bodypic, .Pokepage #bodypic, .Repurpose #bodypic{
-	padding-top: 20px;
-	width: 80%;
-}
-
 .Personata #bodypic{
 	width: 50%;
 	padding-bottom: 20px;
@@ -279,11 +277,6 @@ h3{
 	border-top: 2px black solid;
 }
 
-.subhead{
-	font-family: "JosefinBold";
-	font-size: 16pt;
-}
-
 .navbar{
 	display: block;
 	float:right;
@@ -293,11 +286,6 @@ h3{
 
 .Digipet #petpic{
 	padding-bottom: 50px;
-}
-
-body{
-	font-family: "Josefin";
-	font-size: 14pt;
 }
 
 #bodylink{

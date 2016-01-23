@@ -23,6 +23,7 @@ body{
 	font-size: 14pt;
 	margin: 0px;
 	margin-left: 5px;
+	margin-bottom: 20px;
 }
 
 /* unvisited link */
@@ -53,6 +54,16 @@ a:active {
 hr{
 	clear: left;
 	border-top: 1px solid black;
+}
+
+.processtext{
+	text-align: center;
+}
+
+iframe{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .projects hr{
@@ -216,7 +227,7 @@ img{
 	display: inline-block;
 }
 
-.Digipet #bodypic, .Hack #bodypic, .VD #bodypic, .Pokepage #bodypic, .Repurpose #bodypic{
+.Digipet #bodypic, .Hack #bodypic, .VD #bodypic, .Pokepage #bodypic, .Repurpose #bodypic, .Personata .bodypic{
 	padding-top: 20px;
 	width: 80%;
 }
@@ -241,15 +252,15 @@ img{
 	margin-left: 20px;
 }
 
-#bottom{
-	padding-top: 20px;
+.bottom{
+	margin-bottom: 20px;
 }
 
 .About #molly{
 	width: 100%;
 }
 
-.Personata #bodypic{
+.Personata .protopic{
 	width: 50%;
 	padding-bottom: 20px;
 }

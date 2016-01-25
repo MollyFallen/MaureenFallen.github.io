@@ -3,35 +3,34 @@
 	<head>
 		<title>Portfolio</title>
 		<link href="projects.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src = "projects.js" type = "text/javascript"></script>
 		<link rel="icon" type="image/png" href="favicon.png">
 	</head>
 
-	<body class = "Links">
-		<a href="index.html">
-			<img id = "heading" src="Molly Logo No Border.png" height="201" width="297">
-		</a>
-		<div id = "navandtitle">
-			<div id = "title2">
-				<h2>
-					These are all of the links on this site.   
-				</h2>
-			</div>
-			<div id = "nav">
-				<ul id = "list">
-					<li class = "navbar" id = "current">Links</a></li>
-					<li class = "navbar"><a href="about.html">About</a></li>
-					<li class = "navbar"><a href="resume.html">R&#233;sum&#233</a></li>
-					<li class = "navbar"><a href="index.html">Projects</a></li>
+	<body>
+		<div id = "Header">
+			<a href = "index.html">
+				<img class = "MollyLogo" src="Molly Logo No Border.png">
+			</a>
+			<div id = "NavAndTag">
+				<p id = "TagLine">
+					mfallen@uw.edu
+				</p>
+				<ul id = "NavBar">
+					<li class = "NavItem DropdownTrigger"><a href="index.html">Projects</a></li>
+					<li class = "NavItem"><a href="about.html">About</a></li>
+					<li class = "NavItem"><a href="resume.html">R&#233;sum&#233</a></li>
+					<li class = "NavItem"><a href="links.html">Links</a></li>
 				</ul>
 			</div>
 		</div>
-		<hr/>
 		<div id = "main">
-			<div id = "notitle">
-				<p id = "titlelink">
+			<div>
+				<p id = "BodyHeading">
 					Quick Links
 				</p>
-				<p class = "subhead">
+				<p>
 					<a href = "https://github.com/MollyFallen/MollyFallen.github.io" target = "_blank">
 						The GitHub Page for this website. 
 					</a>
@@ -43,7 +42,7 @@
 					<br/>
 					<br/>
 					<a href = "http://repurpose-molly.herokuapp.com" target = "_blank">
-						RePurpose hackathon wireframe. 
+						Repurpose hackathon wireframe. 
 					</a>
 					<br/>
 					<br/>
@@ -77,5 +76,25 @@
 					</a>
 				</p>
 			</div>
+		</div>
+		<div id = "HeaderSmall" style = "display: none">
+			<img id = "LandscapeLogo" src = "Maureen Fallen logo landscape.png">
+			<ul id = "SmallNavBar">
+				<li class = "NavItem DropdownTrigger" id = "SmallProjects"> <a href="index.html">Projects</li>
+				<li class = "NavItem"><a href="about.html">About</a></li>
+				<li class = "NavItem"><a href="resume.html">R&#233;sum&#233</a></li>
+				<li class = "NavItem"><a href="links.html">Links</a></li>
+			</ul>
+		</div>
+		<div id = "Dropdown" style = "display:none">
+			<ul id = "Droplist">
+				<li class = "DropItem"><a href="Personata.html">Personata</li>
+				<li class = "DropItem"><a href="DigiPet.html">Digital Pet</a></li>
+				<li class = "DropItem"><a href="Repurpose.html">Repurpose</a></li>
+				<li class = "DropItem"><a href="Pokepage.html">Pok&#233;Tunes</a></li>
+				<li class = "DropItem"><a href="Hack.html">Hack to the Future</a></li>
+				<li class = "DropItem"><a href="VD.html">Surf Incubator</a></li>
+			</ul>
+		</div>
 	</body>
 </html>

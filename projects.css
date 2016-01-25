@@ -5,303 +5,250 @@
 
 @font-face { 
 	font-family: "Josefin"; 
-	src: url("JosefinSans-SemiBold.ttf");  
+	src: url("JosefinSans-SemiBold.ttf"); 
 }
 
-@font-face {
-	font-family: "NewAthena"; 
-	src: url("new_athena_unicode.ttf"); 
-}
-	
-@font-face {
-	font-family: "JosefinItalic"; 
-	src: url("JosefinSans-SemiBoldItalic.ttf"); 
-}
-
-body{
+*{
 	font-family: "Josefin";
-	font-size: 14pt;
-	margin: 0px;
-	margin-left: 5px;
-	margin-bottom: 20px;
+	color: black;
 }
 
-/* unvisited link */
 a{
-	font-family: "JosefinBold";
 	text-decoration: none;
 }
 
-a:link {
-    color: black;
+.MollyLogo{
+	width: 200px;
 }
 
-/* visited link */
-a:visited {
-    color: black;
+.NavItem{
+	list-style: none;
+	display: inline-block;
+	font-size: 20pt;
+	margin-right: 20px;
+	margin-top: 5px;
 }
 
-/* mouse over link */
-a:hover {
-    color: #D87BB2;
+#Droplist li{
+	
 }
 
-/* selected link */
-a:active {
-    color: black;
-}
-
-hr{
-	clear: left;
-	border-top: 1px solid black;
-}
-
-.processtext{
-	text-align: center;
-}
-
-iframe{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.projects hr{
-	padding-bottom: 20px;
-	border-bottom: none;
-	border-left: none;
-	border-right:none;
-}
-
-#notitle{
-	clear:left;
-	font-size: 14pt;
-	width: 30%;
-}
-
-.Links #notitle{
-	width: 50%;
-}
-
-.Hack #notitle, .Digipet #notitle, .VD #notitle, .Pokepage #notitle{
-	/*background-color: #f3f3f3;*/
-	height: 100%;
-	padding-right: 20px;
-	position: absolute;
-	top: 133px;
+#NavBar, #SmallNavBar{
+	padding: 0px;
+	width: 100%;
+	top: 10px;
 	bottom: 0px;
-}
-
-.About #notitle{
-	clear:left;
-	font-size: 14pt;
-	width: 100%;
-}
-
-.Links #notitle{
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.Links #notitle{
-	text-align: center;
-}
-
-.Resume #download{
-	font-size: 18pt;/* selected link */
-}
-
-a:active {
-    color: black;
-}
-
-.About #current, .Resume #current, .Links #current{
-	border-left: none;
-}
-
-#current{
-	background-color: #d3d3d3;
-	border-left: 1px solid black;
-}
-
-.Pokepage ul{
-	list-style-type: circle;
-	list-style-position: outside;
-	padding-left: 20px;
 	margin: 0px;
+	height: 50px;
 }
 
-.subhead{
-	font-family: "JosefinBold";
-	font-size: 16pt;
-}
-
-#titlelink{
-	font-family: "JosefinBold";
-	font-size: 30pt;
-}
-
-.Digipet #titlelink, .VD #titlelink{
-	margin-top: 0px;
-}
-
-#heading{
-	float:left;
-	margin-bottom: 0px;
-	height: 120px;
-	width: 180px;
-	padding-bottom: 3px;
-}
-
-#name{
-	margin-bottom: 0px;
-}
-
-img{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#title2 h2{
-	text-align: right;
-	margin-bottom: 10px;
-	clear: left;
-}
-
-#title2{
-	width: 100%;
-}
-
-#email{
-	position: absolute;
-	left: 200px;
-	padding-top: 50px;
-	font-size: 24pt;
-}
-
-#navandtitle{
-	position: absolute;
+#SmallNavBar{
+	position: fixed;
+	width: 400px;
 	right: 0px;
 }
 
-#nav{
-	width: 470px;
-	font-size: 24pt;
-	float: right;
+#NavBar{
+	border-top: 1px solid black;
+	position: relative;
 }
 
-#last{
-	border-right: none; 
-}
-
-#square{
-	width: 100%;
-	height: 200px;
-	margin: 15px;
-}
-
-.projects #pokepic, .projects #render, .projects #VDpic, .projects #petpic{
-	height: 100%;
-}
-
-
- .projects #personatapic, .projects #repurposepic{
-	width: 80%;
-	margin-bottom: 80px;
- }
-
-
-.Digipet #container, .Hack #container, .VD #container, .Pokepage #container, .Repurpose #container, .Personata #container{
-	position: absolute;
-	right: 0;
-	width: 65%;
-	margin-left: 20px;
-	margin-top: 20px;
-}
-
-.projects #hack, .projects #pet, .projects #VD, .projects #poke, .projects #personata, .projects #repurpose{
-	width: 300px;
-	margin: 0px;
-	margin-bottom: 60px;
-	display: inline-block;
-}
-
-.Digipet #bodypic, .Hack #bodypic, .VD #bodypic, .Pokepage #bodypic, .Repurpose #bodypic, .Personata .bodypic{
-	padding-top: 20px;
-	width: 80%;
-}
-
-.projects #main{
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-
-.About #main{
-	margin-right: auto;
-	margin-left: auto;
-	width:50%;
-}
-
-.About #container{
-	float: right;
-	width: 50%;
-	margin-left: 20px;
-}
-
-.bottom{
-	margin-bottom: 20px;
-}
-
-.About #molly{
-	width: 100%;
-}
-
-.Personata .protopic{
-	width: 50%;
-	padding-bottom: 20px;
-}
-
-#poke{
-	clear:left;
-}
-
-h3{
+.Subhead{
 	font-size: 18pt;
+	font-family: "JosefinBold";
+}
+
+#TagLine{
+	font-size: 24pt;
+	margin: 0px;
+}
+
+#current{
+	border-bottom: 2px solid #D87BB2;;
+}
+
+#NavAndTag{
+	width: 400px;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	height: 100px;
+
+}
+
+/*
+f3f3f3;
+#ffccff;
+*/
+
+a:hover{
+	color: #D87BB2;
+}
+
+#SmallProjects{
+	padding-bottom: 15px;
+}
+
+#Header{
+	background-color: white;
+	padding: 5px;
+	padding-left: 0px;
+}
+
+body{
+	margin: 0px;
+}
+
+#HeaderSmall{
+	height: 60px;
+	width: 100%;
+	top: 0px;
+	background-color: white;
+	position: fixed;
+	border-bottom: 1px solid black;
+}
+
+#Dropdown{
+	position: absolute;
+	top: 96px;
+	right: 200px;
+	width: 210px;
+}
+
+#Droplist{
+	background-color: white;
+	list-style: none;
+	padding: 10px;
+	font-size: 18pt;
+	margin: 0px;
+}
+
+#LandscapeLogo{
+	height: 60px;
+}
+
+#ProjectInfo{
+	position: absolute;
+	left: 0px;
+	width: 30%;
+	font-size: 14pt;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+#ProjectInfo, #Images, #About, #ResumeContainer{
+	font-size: 14pt;
+}
+
+#About{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#MollyPic{
+	width: 100%;
+}
+
+#About{
+	width: 50%;
+	height: 100%;
+
+}
+
+#About #LinkHeading{
+	display:block;
 	text-align: center;
+	padding-bottom: 30px;
+	font-family: "JosefinBold";
 }
 
-#list{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-family: "JosefinBold";
-    text-decoration: none;
-
-}
-
-#list li{
-	border-top: 2px black solid;
-}
-
-.navbar{
+#ResumePic{
+	margin-right: auto;
+	margin-left: auto;
 	display: block;
-	float:right;
-	padding: 8px;
-	border-right: 1px solid black;
 }
 
-.Digipet #petpic{
-	padding-bottom: 50px;
+#ResumeContainer{
+	width: 90%;
 }
 
-#bodylink{
+.BodyLink{
 	text-decoration: underline;
 }
 
-h3{
+
+#AboutInfo{
+	width: 100%;
+}
+
+#Images{
+	position: absolute;
+	right: 0px;
+	width: 60%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#MollyPic{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#Images img{
+	width: 80%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#BodyHeading{
+	font-size: 26pt;
+	margin: 0px;
 	font-family: "JosefinBold";
+}
+
+#LinkHeading{
+	font-size: 26pt;
+	font-family: "JosefinBold";
+}
+
+#Images #Smaller{
+	width: 60%;
+}
+
+#main{
+	text-align: center;
+	width: 90%;
+	margin-left: 5%;
+	background-color: white;
+	font-size: 14pt;
+}
+
+.ThumbNail{
+	max-height: 250px;
+	max-width: 250px;
+	vertical-align: middle;
+}
+
+.ImageDiv{
+	height: 270px;
+	width: 300px;
+}
+
+.ImageDiv span{
+	vertical-align: middle;
+	height: 100%;
+	display: inline-block;
+	width: 0px;
+}
+
+.Square{
+	display: inline-block;
+	text-align: center;
+	margin: 30px;
 }

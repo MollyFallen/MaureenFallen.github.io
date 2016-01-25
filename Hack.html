@@ -3,49 +3,48 @@
 	<head>
 		<title>Portfolio</title>
 		<link href="projects.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src = "projects.js" type = "text/javascript"></script>
 		<link rel="icon" type="image/png" href="favicon.png">
 	</head>
 
-	<body class = "Hack">
-		<a href="index.html">
-			<img id = "heading" src="Molly Logo No Border.png" height="201" width="297">
-		</a>
-		<div id = "navandtitle">
-			<div id = "title2">
-				<h2>
-					This was for a hackathon. 
-				</h2>
-			</div>
-			<div id = "nav">
-				<ul id = "list">
-					<li class = "navbar" id = "last"><a href="links.html">Links</a></li>
-					<li class = "navbar"><a href="about.html">About</a></li>
-					<li class = "navbar"><a href="resume.html">R&#233;sum&#233</a></li>
-					<li class = "navbar"><a href="index.html">Projects</a></li>
+	<body>
+		<div id = "Header">
+			<a href = "index.html">
+				<img class = "MollyLogo" src="Molly Logo No Border.png">
+			</a>
+			<div id = "NavAndTag">
+				<p id = "TagLine">
+					mfallen@uw.edu
+				</p>
+				<ul id = "NavBar">
+					<li class = "NavItem DropdownTrigger"><a href="index.html">Projects</a></li>
+					<li class = "NavItem"><a href="about.html">About</a></li>
+					<li class = "NavItem"><a href="resume.html">R&#233;sum&#233</a></li>
+					<li class = "NavItem"><a href="links.html">Links</a></li>
 				</ul>
 			</div>
 		</div>
-		<hr/>
-		<div id = "main">
-			<div id = "container">
+		<div>
+			<div id = "Images">
 				<a href="https://www.hackster.io/team-brainstorm/stormsafe-6ced49?offset=0&ref=search&ref_id=stormsafe" target="_blank">
-					<img id = "bodypic" src="Render.png">
+					<img src="Render.png">
 				</a>
 			</div>
-			<div id = "notitle">
-				<a id = "titlelink" href="https://www.hackster.io/team-brainstorm/stormsafe-6ced49?offset=0&ref=search&ref_id=stormsafe" target="_blank">
-					Hackster's "Hack to the Future" Hardware Weekend - Portland, OR
+			<div id = "ProjectInfo">
+				<a id = "LinkHeading" href="https://www.hackster.io/team-brainstorm/stormsafe-6ced49?offset=0&ref=search&ref_id=stormsafe" target="_blank">
+						Hackster's "Hack to the Future" Hardware Weekend - Portland, OR
 				</a>
 				<p>
 					Our team won Best Hack by creating a "flux capacitor" that can detect lightning strikes in the area, up to 40 km away. This could eventually be used by people in high risk areas to know when to seek shelter.
 				</p>
-				<p class = "subhead">
+				<p class = "Subhead">
 					Team Members:
 				</p>
 				<p>
 					Alex Trimble, Eric Thomas, and Brian Bloom.
 				</p>
-				<p class = "subhead">	
+				<p class = "Subhead">	
 					My Contributions:
 				</p>
 				<ul>
@@ -60,7 +59,25 @@
 					</li>
 				</ul>
 			</div>
-		<div id = "bottom">
+		</div>
+		<div id = "HeaderSmall" style = "display: none">
+			<img id = "LandscapeLogo" src = "Maureen Fallen logo landscape.png">
+			<ul id = "SmallNavBar">
+				<li class = "NavItem DropdownTrigger" id = "SmallProjects"> <a href="index.html">Projects</li>
+				<li class = "NavItem"><a href="about.html">About</a></li>
+				<li class = "NavItem"><a href="resume.html">R&#233;sum&#233</a></li>
+				<li class = "NavItem"><a href="links.html">Links</a></li>
+			</ul>
+		</div>
+		<div id = "Dropdown" style = "display:none">
+			<ul id = "Droplist">
+				<li class = "DropItem"><a href="Personata.html">Personata</li>
+				<li class = "DropItem"><a href="DigiPet.html">Digital Pet</a></li>
+				<li class = "DropItem"><a href="Repurpose.html">Repurpose</a></li>
+				<li class = "DropItem"><a href="Pokepage.html">Pok&#233;Tunes</a></li>
+				<li class = "DropItem"><a href="Hack.html">Hack to the Future</a></li>
+				<li class = "DropItem"><a href="VD.html">Surf Incubator</a></li>
+			</ul>
 		</div>
 	</body>
 </html>

@@ -59,7 +59,7 @@ a{
 }
 
 #TagLine{
-	font-size: 24pt;
+	font-size: 18pt;
 	margin: 0px;
 }
 
@@ -110,7 +110,7 @@ body{
 
 #Dropdown{
 	position: absolute;
-	top: 96px;
+	top: 85px;
 	right: 200px;
 	width: 210px;
 }

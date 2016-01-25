@@ -9,7 +9,7 @@ $(function(){
 		}else{
 			$("#HeaderSmall").hide();
 			$("#Dropdown").css("position", "absolute");
-			$("#Dropdown").css("top", "96px");
+			$("#Dropdown").css("top", "85px");
 			$("#Dropdown").css("border-top", "none");
 		}
 	});

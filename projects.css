@@ -108,6 +108,10 @@ body{
 	border-bottom: 1px solid black;
 }
 
+.Bottom{
+	margin-bottom: 50px;
+}
+
 #Dropdown{
 	position: absolute;
 	top: 85px;
@@ -121,6 +125,10 @@ body{
 	padding: 10px;
 	font-size: 18pt;
 	margin: 0px;
+}
+
+#Persona{
+	box-shadow: 5px 5px 5px #888888;
 }
 
 #LandscapeLogo{

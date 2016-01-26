@@ -76,6 +76,7 @@ a{
 
 }
 
+
 /*
 f3f3f3;
 #ffccff;
@@ -228,8 +229,12 @@ body{
 	font-family: "JosefinBold";
 }
 
-#Images #Smaller{
+#Images .Smaller{
 	width: 60%;
+}
+
+#Sticky{
+	width: 10%;
 }
 
 #main{

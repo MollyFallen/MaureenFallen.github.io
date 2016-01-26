@@ -135,7 +135,7 @@ body{
 	height: 60px;
 }
 
-#ProjectInfo, #DigiPetScroll, #PersonataScroll{
+#ProjectInfo, #LongScroll{
 	left: 0px;
 	width: 30%;
 	font-size: 14pt;
@@ -254,6 +254,10 @@ body{
 	height: 100%;
 	display: inline-block;
 	width: 0px;
+}
+
+.ThisSite{
+	border: 1px solid black;
 }
 
 .Square{

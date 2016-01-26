@@ -1,0 +1,223 @@
+@font-face { 
+	font-family: "JosefinBold"; 
+	src: url("JosefinSans-Bold.ttf"); 
+}
+
+@font-face { 
+	font-family: "Josefin"; 
+	src: url("JosefinSans-SemiBold.ttf");  
+}
+
+@font-face {
+	font-family: "NewAthena"; 
+	src: url("new_athena_unicode.ttf"); 
+}
+	
+@font-face {
+	font-family: "JosefinItalic"; 
+	src: url("JosefinSans-SemiBoldItalic.ttf"); 
+}
+
+body{
+	background-color: white;
+}
+
+/* unvisited link */
+a{
+	font-family: "JosefinBold";
+	text-decoration: none;
+}
+
+hr{
+	margin-bottom: 25px;
+	clear: left;
+	border-top: 1px solid black;
+}
+
+#notitle{
+	clear:left;
+	font-size: 14pt;
+	width: 30%;
+}
+
+.Resume #download{
+	font-size: 18pt;
+}
+
+#TitleLink{
+	font-size: 30pt;
+	font-family: "JosefinBold";
+}
+
+.About #current, .Resume #current, .Links #current{
+	border-left: none;
+}
+
+#this{
+	float:left;
+	font-size: 14pt;
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #D87BB2;
+}
+
+.Pokepage ul{
+	list-style-type: circle;
+	list-style-position: outside;
+	padding-left: 20px;
+	margin: 0px;
+}
+
+.subhead{
+	font-family: "JosefinBold";
+}
+
+#titlelink{
+	font-family: "JosefinBold";
+	font-size: 30pt;
+}
+
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+#heading{
+	float:left;
+	margin-bottom: 0px;
+}
+
+#name{
+	margin-bottom: 0px;
+}
+
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2{
+	text-align: right;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+#navandtitle{
+	float:right;
+}
+
+#title2{
+	width: 100%;
+}
+
+#nav{
+	width: 470px;
+	font-size: 24pt;
+	float: right;
+}
+
+#last{
+	border-right: none; 
+}
+
+
+#current{
+	background-color: #d3d3d3;
+	border-left: 1px solid black;
+}
+
+#square{
+	width: 300px;
+	height: 320px;
+	border: 1px solid black;
+	float: left;
+	margin: 15px;
+}
+
+.projects #pokepic{
+	padding-top: 10px;
+}
+
+.projects #render{
+	padding-top: 15px;
+}
+
+.projects #VDpic{
+	padding-top: 5px;
+}
+
+.Digipet #container, .Hack #container, .VD #container, .Pokepage #container, .About #container{
+	float: right;
+	width: 70%;
+	margin-left: 20px;
+}
+
+.Digipet #petpic, .Hack #render, .VD #VD, .Pokepage #pokepic{
+	float:left;
+	width: 80%;
+}
+
+.About #molly{
+	float: left;
+	width: 40%;
+}
+
+#poke{
+	clear:left;
+}
+
+h3{
+	font-size: 18pt;
+	text-align: center;
+}
+
+#list{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "JosefinBold";
+    text-decoration: none;
+
+}
+
+#list li{
+	border-top: 2px black solid;
+}
+
+.subhead{
+	font-family: "JosefinBold";
+	font-size: 16pt;
+}
+
+.navbar{
+	display: block;
+	float: right;
+	padding: 8px;
+	border-right: 1px solid black;
+}
+
+body{
+	font-family: "Josefin";
+	font-size: 14pt;
+}
+
+#bodylink{
+	text-decoration: underline;
+}
+
+h3{
+	font-family: "JosefinBold";
+}

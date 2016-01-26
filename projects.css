@@ -127,8 +127,9 @@ body{
 	margin: 0px;
 }
 
-#Persona{
+.Persona{
 	box-shadow: 5px 5px 5px #888888;
+	margin-bottom: 30px;
 }
 
 #LandscapeLogo{

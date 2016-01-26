@@ -135,14 +135,15 @@ body{
 	height: 60px;
 }
 
-#ProjectInfo{
-	position: absolute;
+#ProjectInfo, #DigiPetScroll, #PersonataScroll{
 	left: 0px;
 	width: 30%;
 	font-size: 14pt;
 	margin-left: 30px;
-	margin-top: 30px;
+	top: 150px;
+	position: absolute;
 }
+
 
 #ProjectInfo, #Images, #About, #ResumeContainer{
 	font-size: 14pt;

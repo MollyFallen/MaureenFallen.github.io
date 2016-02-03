@@ -115,9 +115,13 @@ body{
 
 #Dropdown{
 	position: absolute;
-	top: 80px;
+	top: 85px;
 	right: 200px;
 	width: 210px;
+}
+
+.DropdownTrigger{
+	padding-bottom: 20px;
 }
 
 #Droplist{

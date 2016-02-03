@@ -4,8 +4,7 @@ $(function(){
 		if (scroll > 60){
 			$("#HeaderSmall").show();
 			$("#Dropdown").css("position", "fixed");
-			$("#Dropdown").css("top", "60px");
-			$("#Dropdown").css("border-top", "1px solid black");
+			$("#Dropdown").css("top", "50px");
 			$("#LongScroll").css("position", "fixed");
 			$("#LongScroll").css("top", "90px");
 		}else{

@@ -11,7 +11,7 @@ $(function(){
 		}else{
 			$("#HeaderSmall").hide();
 			$("#Dropdown").css("position", "absolute");
-			$("#Dropdown").css("top", "5px");
+			$("#Dropdown").css("top", "10%");
 			$("#Dropdown").css("border-top", "none");
 			$("#LongScroll").css("position", "absolute");
 			$("#LongScroll").css("top", "150px");

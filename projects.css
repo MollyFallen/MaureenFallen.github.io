@@ -265,6 +265,13 @@ body{
 	width: 300px;
 }
 
+#Website{
+	position: relative;
+	top: 50px;
+	height: 10px;
+	bottom: 50px;
+}
+
 .ImageDiv span{
 	vertical-align: middle;
 	height: 100%;
@@ -272,6 +279,13 @@ body{
 	width: 0px;
 }
 
+.indexmain{
+	margin-bottom: 100px;
+}
+
+.ImageDiv p{
+	text-align: left;
+}	
 .ThisSite{
 	border: 1px solid black;
 }
@@ -281,3 +295,4 @@ body{
 	text-align: center;
 	margin: 30px;
 }
+

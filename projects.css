@@ -207,6 +207,11 @@ body{
 	padding-top: 50px;
 }
 
+#title{
+	text-align: left;
+	font-family: "JosefinBold";
+}
+
 #MollyPic{
 	width: 50%;
 	margin-right: auto;

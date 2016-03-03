@@ -190,6 +190,9 @@ body{
 	text-decoration: underline;
 }
 
+.Joy p{
+	text-align: left;
+}
 
 #AboutInfo{
 	width: 100%;

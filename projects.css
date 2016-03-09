@@ -56,6 +56,7 @@ a{
 .Subhead{
 	font-size: 18pt;
 	font-family: "JosefinBold";
+	margin-bottom: 10px;
 }
 
 #TagLine{
@@ -289,6 +290,10 @@ body{
 }	
 .ThisSite{
 	border: 1px solid black;
+}
+
+.Left{
+	text-align: left;
 }
 
 .bottomText{
